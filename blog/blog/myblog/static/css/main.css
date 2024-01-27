@@ -1,3 +1,18 @@
+/* https://fonts.google.com/specimen/Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+.logo{
+    font-family: 'Roboto Slab', serif; 
+    letter-spacing: -1px;
+}
+html,
 body {
-    background-color: gainsboro;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.fw-500 {
+    font-weight: 500 !important;
 }
