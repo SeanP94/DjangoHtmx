@@ -17,14 +17,14 @@ body {
     font-weight: 500 !important;
 }
 
-.infscroll h1{
+.infscroll-title{
     font-size:  22px;
     letter-spacing: -0.6px;
 
 }
 
 @media only screen and (max-width: 768px){/*below Medium Break Point*/
-    .infscroll h1{
+    .infscroll-title{
         font-size:  15px;
         letter-spacing: -0.0px;
     }
