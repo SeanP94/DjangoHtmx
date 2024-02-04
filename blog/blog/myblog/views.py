@@ -8,6 +8,7 @@ class HomeView(ListView):
     context_object_name = "posts"
     paginate_by = 10
     def get_template_names(self):
+        print(self.request.headers)
         is_htmx = self.request.headers.get('HX-Request') != None
         print(is_htmx, self.request.headers.get('HX-Request'))
         if is_htmx:

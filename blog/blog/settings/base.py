@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "blog.myblog",
-    "django_htmx"
+    "django_htmx",
+    "taggit"
 ]
 
 MIDDLEWARE = [
